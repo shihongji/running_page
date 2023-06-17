@@ -23,7 +23,7 @@ const Header = () => {
             <a
               key={i}
               href={n.url}
-              className="light-gray link dim f6 f5-l mr3 mr4-l"
+              className="light-gray link dim f6 f5-l mr3 mr4-l b"
             >
               {n.name}
             </a>

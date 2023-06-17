@@ -1,6 +1,6 @@
 // const
 const MAPBOX_TOKEN =
-  'pk.eyJ1IjoieWlob25nMDYxOCIsImEiOiJja2J3M28xbG4wYzl0MzJxZm0ya2Fua2p2In0.PNKfkeQwYuyGOTT_x9BJ4Q';
+  'pk.eyJ1IjoiaG9uZ2ppc2hpIiwiYSI6ImNsajA2dWQ2ZzB0dGQzcG4yaXoxYmNhMG8ifQ.KWrrfYdqEypt35jiV3WYmQ';
 const MUNICIPALITY_CITIES_ARR = [
   '北京市',
   '上海市',
@@ -34,7 +34,7 @@ const MAP_HEIGHT = 600;
 const ROAD_LABEL_DISPLAY = true;
 
 // IF you outside China please make sure IS_CHINESE = false
-const IS_CHINESE = true;
+const IS_CHINESE = false;
 const USE_ANIMATION_FOR_GRID = false;
 const CHINESE_INFO_MESSAGE = (yearLength, year) => {
   const yearStr = year === 'Total' ? '所有' : ` ${year} `;
@@ -51,11 +51,11 @@ const CHINESE_LOCATION_INFO_MESSAGE_SECOND = '不要停下来，不要停下奔�
 const INFO_MESSAGE = IS_CHINESE ? CHINESE_INFO_MESSAGE : ENGLISH_INFO_MESSAGE;
 const FULL_MARATHON_RUN_TITLE = IS_CHINESE ? '全程马拉松' : 'Full Marathon';
 const HALF_MARATHON_RUN_TITLE = IS_CHINESE ? '半程马拉松' : 'Half Marathon';
-const MORNING_RUN_TITLE = IS_CHINESE ? '清晨跑步' : 'Morning Run';
-const MIDDAY_RUN_TITLE = IS_CHINESE ? '午间跑步' : 'Midday Run';
-const AFTERNOON_RUN_TITLE = IS_CHINESE ? '午后跑步' : 'Afternoon Run';
-const EVENING_RUN_TITLE = IS_CHINESE ? '傍晚跑步' : 'Evening Run';
-const NIGHT_RUN_TITLE = IS_CHINESE ? '夜晚跑步' : 'Night Run';
+const MORNING_RUN_TITLE = IS_CHINESE ? '清晨跑步' : 'Dawn';
+const MIDDAY_RUN_TITLE = IS_CHINESE ? '午间跑步' : 'Noon';
+const AFTERNOON_RUN_TITLE = IS_CHINESE ? '午后跑步' : 'Afternoon';
+const EVENING_RUN_TITLE = IS_CHINESE ? '傍晚跑步' : 'Dusk';
+const NIGHT_RUN_TITLE = IS_CHINESE ? '夜晚跑步' : 'Night';
 
 const RUN_TITLES = {
   FULL_MARATHON_RUN_TITLE,
