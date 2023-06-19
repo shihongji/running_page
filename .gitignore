@@ -22,3 +22,6 @@ config.yaml
 
 # Add cheatsheet
 .cheatsheet
+
+scripts/garmin_sync.py
+scripts/garmin_to_strava_sync.py
