@@ -5,9 +5,9 @@
 node_modules
 yarn-error.log
 
-/public
 # Build directory
 /build
+/dist
 .DS_Store
 .sass-cache/
 _posts/
@@ -19,6 +19,7 @@ _site/
 .idea
 
 config.yaml
+<<<<<<< HEAD
 
 # Add cheatsheet
 .cheatsheet
@@ -27,3 +28,5 @@ config.yaml
 
 scripts/garmin_sync.py
 scripts/garmin_to_strava_sync.py
+.venv/
+upstream/master
