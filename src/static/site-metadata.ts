@@ -11,18 +11,18 @@ interface ISiteMetadataResult {
 
 const data: ISiteMetadataResult = {
   siteTitle: 'Running Page',
-  siteUrl: 'https://yihong.run',
-  logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU',
+  siteUrl: 'https://westsea.tech',
+  logo: 'https://s1.ax1x.com/2023/06/18/pClYOBt.png',
   description: 'Personal site and blog',
   navLinks: [
     {
       name: 'Blog',
-      url: 'https://github.com/yihong0618/gitblog',
+      url: 'https://www.westsea.tech',
     },
-    {
-      name: 'About',
-      url: 'https://github.com/yihong0618/running_page/blob/master/README-CN.md',
-    },
+    // {
+    //   name: 'About',
+    //   url: 'https://github.com/yihong0618/running_page/blob/master/README-CN.md',
+    // },
   ],
 };
 
