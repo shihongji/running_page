@@ -23,12 +23,12 @@ if __name__ == "__main__":
     parser.add_argument("client_id", help="strava client id")
     parser.add_argument("client_secret", help="strava client secret")
     parser.add_argument("refresh_token", help="strava refresh token")
-    parser.add_argument(
-        "--only-run",
-        dest="only_run",
-        action="store_true",
-        help="if is only for running",
-    )
+#     parser.add_argument(
+#         "--only-run",
+#         dest="only_run",
+#         action="store_true",
+#         help="if is only for running",
+#     )
     options = parser.parse_args()
     run_strava_sync(
         options.client_id,
