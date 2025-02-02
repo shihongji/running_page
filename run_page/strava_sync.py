@@ -34,5 +34,5 @@ if __name__ == "__main__":
         options.client_id,
         options.client_secret,
         options.refresh_token,
-        only_run=options.only_run,
+#         only_run=options.only_run,
     )
